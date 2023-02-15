@@ -36,7 +36,7 @@ useEffect(()=>{
     setOurCoin()
 }, [id])
   return (
-    <div><img src={coin.icon}/></div>
+    <div><img src={coin.icon} alt={coin.name}/></div>
   )
 }
 

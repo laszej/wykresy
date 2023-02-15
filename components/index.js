@@ -6,7 +6,7 @@ const CoinList = ({ coinData }) => {
     <div>
       {coinData.coins.map((coin) => {
         return (
-          <div>
+          <div key={index}>
             <h1> {coin.name}</h1>
             <img src={coin.icon} />
             <p> {coin.price}</p>
