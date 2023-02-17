@@ -1,6 +1,7 @@
 import Axios from "axios";
 
 
+
 const Coin = ({ coinData }) => {
   console.log(coinData)
   if (!coinData) {
@@ -12,9 +13,9 @@ const Coin = ({ coinData }) => {
     return null;
   }
   return (
-    <div>
+    <div style={{display: "flex", flexDirection: "column"}}>
       <h1>{coinData.coin.name}</h1>
-      <img src={coinData.coin.icon} alt={coinData.name} />
+      <img src={coinData.coin.icon} alt={coinData.name} height={100} width={100} />
       <p>{coinData.coin.price}</p>
     </div>
   );

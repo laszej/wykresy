@@ -10,7 +10,13 @@ export default function Home() {
     <>
     <Head>
         <title> cryptocurrencies</title>
+        
       </Head>
+
+    
+      
+
+   
     <div className={styles.container} >
       
       <h1 className={styles.homePageTitle}> Cryptocurrencies online</h1>

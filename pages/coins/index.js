@@ -10,12 +10,13 @@ const CoinList = ({ coinData }) => {
         return (
           <Link href="/coins/[id]" as={`/coins/${coin.id}`} key={coin.id}>
             <a>
-              <div>
-                <h1> {coin.name}</h1>
-                <img src={coin.icon} />
-                <p> {coin.price}</p>
-                
-              </div>
+            <div style={{display: "flex", flexDirection: "row", marginLeft: "3rem", marginBottom: "3rem"}}>
+            <div style={{display: "flex", flexDirection: "column"}}>
+            <h1>{coin.name}</h1>
+            <img src={coin.icon} alt={coinData.name} height={100} width={100} />
+            <p>{coin.price}</p>
+            </div>
+            </div>
             </a>
           </Link>
         );
