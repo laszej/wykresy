@@ -20,7 +20,7 @@ export default function Home() {
     <div className={styles.container} >
       
       <h1 className={styles.homePageTitle}> Cryptocurrencies online</h1>
-      <button className={styles.button} onClick={()=>router.push("/coins")}>taka a look at our coins!</button>
+      <button className={styles.button} onClick={()=>router.push("/coins")}>take a look at our coins!</button>
     </div>
     </>
   );

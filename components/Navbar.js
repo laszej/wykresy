@@ -41,7 +41,7 @@ const Navbar = () => {
                 <a className="nav-link">About</a>
               </Link>
             </li>
-            <div className="nav-item ms-3" style={{display: "flex", flexDirection: "row"}}>
+            <div className="nav-item ms-3" id="socials">
               <a href="https://www.facebook.com/laszej" target="_blank" rel="noopener noreferrer" className="nav-link">
               <Image src={facebook} alt="Code" height={20} width={20} style={{fill: "#4267B2"}}/>
               </a>
