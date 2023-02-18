@@ -43,10 +43,10 @@ const Navbar = () => {
             </li>
             <div className="nav-item ms-3" id="socials">
               <a href="https://www.facebook.com/laszej" target="_blank" rel="noopener noreferrer" className="nav-link">
-              <Image src={facebook} alt="Code" height={20} width={20} style={{fill: "#4267B2"}}/>
+              <Image src={facebook} alt="Code" height={20} width={20}  />
               </a>
               <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="nav-link">
-              <Image src={twitter} alt="Code" height={20} width={20} className="twitter"/>
+              <Image src={twitter} alt="Code" height={20} width={20} className="twitter" />
               </a>
             </div>
           </ul>

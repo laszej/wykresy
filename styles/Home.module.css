@@ -24,4 +24,36 @@
     cursor: pointer;
   }
 
+  .homeMain {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .gallery{
+    max-width:50%;
+    margin-left:1rem;
+  }
+
+ 
+  @media only screen and (max-width: 600px) {
+    .homeMain{
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+     
+    }
+
+    .gallery{
+      max-width:95%;
+      margin-bottom:"2rem";
+      margin-left: 0rem;
+    }
+
+  }
+
+
+  
+ 
+  
+
  

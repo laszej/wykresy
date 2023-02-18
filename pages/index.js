@@ -2,6 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
+import Gallery from "../components/Gallery";
+import Jumbotron from "../components/Jumotron";
 
 
 export default function Home() {
@@ -9,18 +11,16 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title> cryptocurrencies</title>
+        <title> Stanisław Laskowski front-end developer</title>
         
       </Head>
 
+    <div className={styles.homeMain}>
+    <div className={styles.gallery}>
+    <Gallery/>
+    </div>
+    <Jumbotron/>
     
-      
-
-   
-    <div className={styles.container} >
-      
-      <h1 className={styles.homePageTitle}> Cryptocurrencies online</h1>
-      <button className={styles.button} onClick={()=>router.push("/coins")}>take a look at our coins!</button>
     </div>
     </>
   );
