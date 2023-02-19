@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
  
    
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{display: "flex", alignItems: "center"}} >
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark-custom"   style={{display: "flex", alignItems: "center",}} >
       <div className="container">
       <div style={{display: "flex", alignItems: "center"}}>
       <Image src={CodeIcon} alt="Code" height={60} width={60}/>

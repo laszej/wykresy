@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 
 
 
+
 function MyApp({ Component, pageProps }) {
 
   useEffect(()=>{
@@ -22,6 +23,7 @@ function MyApp({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
       </Head>
       <Component {...pageProps} />
+      
     </Layout>
     
   );
