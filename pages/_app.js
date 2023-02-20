@@ -7,30 +7,20 @@ import { Ubuntu } from '@next/font/google'
 
 const ubuntu = Ubuntu({ weight: "400", subsets: ['latin'] })
 
-
 function MyApp({ Component, pageProps }) {
 
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap");
-},[])
-
- 
+  },[])
 
   return (
    <Layout>
       <Head>
-        
+        <link rel="stylesheet" href={ubuntu}/>
       </Head>
       <Component {...pageProps} />
-      
     </Layout>
-    
   );
 }
 
 export default MyApp;
-
-
-
-
-

@@ -1,9 +1,24 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+#__next{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+  min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
- 
+  min-height: 100vh;
+  
+}
+
+main {
+  margin-bottom: 5rem; /* set the margin bottom equal to the height of the footer */
 }
 
 a {
