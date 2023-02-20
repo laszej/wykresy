@@ -9,7 +9,7 @@ import 'typeface-ubuntu'
 const ubuntu = Ubuntu({
   weight: "400",
   subsets: ['latin-ext', 'latin'],
-  weight: ['300', '400', '600', '700'],
+  weight: ['300', '400', '500', '700'],
   display: 'swap'
 });
 
