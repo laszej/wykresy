@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer1 = () => {
   return (
@@ -12,15 +13,15 @@ const Footer1 = () => {
         <div className="col-md-4">
           <h3>Recent Posts</h3>
           <ul className="list-unstyled">
-            <li><a href="#">Post One</a></li>
-            <li><a href="#">Post Two</a></li>
-            <li><a href="#">Post Three</a></li>
+            <li><Link href="#">Post One</Link></li>
+            <li><Link href="#">Post Two</Link></li>
+            <li><Link href="#">Post Three</Link></li>
           </ul>
         </div>
         <div className="col-md-4">
           <h3>Kontakt</h3>
           <p>Mail</p>
-          <p><a href="mailto:stanislawlaskowski87@gmail.com">stanislawlaskowski87@gmail.com</a></p>
+          <p><Link href="mailto:stanislawlaskowski87@gmail.com">stanislawlaskowski87@gmail.com</Link></p>
           <p>Telefon</p>
           <p>504 940 279</p>
           
