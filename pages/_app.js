@@ -21,14 +21,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-    <style jsx global>{`
-        html  {
-          font-family: ${ubuntu.style.fontFamily};
-        }
-      `}</style>
+    
       <Head>
-    <link rel="stylesheet" href={ubuntu} />
-     <html lang="pl" />
+    
     </Head>
 
    <Layout>
