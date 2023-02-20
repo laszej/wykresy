@@ -8,10 +8,11 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap");
+    import ('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
   },[])
 
   return (
-   
+  
   <>
       <Head>
     
