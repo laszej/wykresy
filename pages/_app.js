@@ -4,8 +4,9 @@ import { useEffect } from "react";
 import Head from "next/head";
 import Layout from "../components/Layout";
 import { Ubuntu } from '@next/font/google'
+//import 'typeface-ubuntu'
 
-const ubuntu = Ubuntu({ weight: "400", subsets: ['latin-ext', 'latin'], display: 'swap' });
+//const ubuntu = Ubuntu({ weight: "400", subsets: ['latin', 'latin-ext'], display: 'swap' });
 
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
@@ -14,16 +15,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet" />
-      </Head>
-      
-      <style jsx global>{`
-        html {
-          font-family: ${ubuntu};
-        }
-      `}</style>
-      
+     
+    
       <Layout>
         <Component {...pageProps} />
       </Layout>
