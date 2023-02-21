@@ -17,14 +17,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-       
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
       </Head>
       
-      <style jsx global>{`
-        html {
-          font-family: ${"ubuntu"};
-        }
-      `}</style>
+    
       <Layout>
         <Component {...pageProps} />
       </Layout>
