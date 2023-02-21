@@ -6,12 +6,10 @@ import Layout from "../components/Layout";
 import { Ubuntu } from '@next/font/google'
 import 'typeface-ubuntu'
 
-const ubuntu = Ubuntu({
-  weight: "400",
-  subsets: ['latin-ext', 'latin'],
-  weight: ['300', '400', '500', '700'],
-  display: 'swap'
-});
+
+
+
+//const ubuntu = Ubuntu({ weight: "400", subsets: ['latin'] })
 
 function MyApp({ Component, pageProps }) {
 
@@ -21,15 +19,19 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-    
-      <Head>
-    
-    </Head>
+    <Head>
+        
 
+      </Head>
+
+    
    <Layout>
-     
+      
       <Component {...pageProps} />
     </Layout>
     </>
   );
 }
+
+
+export default MyApp
