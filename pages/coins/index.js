@@ -5,10 +5,10 @@ import Link from "next/link";
 const CoinList = ({ coinData }) => {
   console.log(coinData)
   return (
-    <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap",  justifyContent: "center"}}>
+    <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap",  justifyContent: "center", textDecoration: "none"}}>
       {coinData.coins.map((coin) => {
         return (
-            <Link href="/coins/[id]" as={`/coins/${coin.id}`} key={coin.id}  >
+            <Link href="/coins/[id]" as={`/coins/${coin.id}`} style={{textDecoration: "none"}} key={coin.id}  >
             
             <div style={{display: "flex", flexDirection: "column", margin: "3rem", alignItems: "center"}}>
             <h3>{coin.name}</h3>
