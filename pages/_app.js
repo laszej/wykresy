@@ -3,10 +3,11 @@ import "../styles/globals.css";
 import { useEffect } from "react";
 import Head from "next/head";
 import Layout from "../components/Layout";
-import { Ubuntu } from '@next/font/google'
-import 'typeface-ubuntu'
+///import { Ubuntu } from '@next/font/google'
+//import 'typeface-ubuntu'
+//<link rel="stylesheet" href={ubuntu}/>
 
-const ubuntu = Ubuntu({ weight: ["400", "500", "500", "700"], subsets: ['latin-ext', "latin"] });
+//const ubuntu = Ubuntu({ weight: ["400", "500", "500", "700"], subsets: ['latin-ext', "latin"] });
 
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
@@ -16,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href={ubuntu}/>
+       
       </Head>
       
       <style jsx global>{`
