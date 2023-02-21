@@ -4,34 +4,31 @@ import { useEffect } from "react";
 import Head from "next/head";
 import Layout from "../components/Layout";
 import { Ubuntu } from '@next/font/google'
-import 'typeface-ubuntu'
 
-
-
-
-//const ubuntu = Ubuntu({ weight: "400", subsets: ['latin'] })
+const ubuntu = Ubuntu({ weight: "400", subsets: ['latin-ext', 'latin'], display: 'swap' });
 
 function MyApp({ Component, pageProps }) {
-
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap");
   },[])
 
   return (
     <>
-    <Head>
-        
-
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet" />
       </Head>
-
-    
-   <Layout>
       
-      <Component {...pageProps} />
-    </Layout>
+      <style jsx global>{`
+        html {
+          font-family: ${ubuntu};
+        }
+      `}</style>
+      
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
 
-
-export default MyApp
+export default MyApp;
