@@ -20,11 +20,7 @@ function MyApp({ Component, pageProps }) {
        
       </Head>
       
-      <style jsx global>{`
-        html {
-          font-family: ${"ubuntu.style.fontFamily"};
-        }
-      `}</style>
+      
       <Layout>
         <Component {...pageProps} />
       </Layout>
