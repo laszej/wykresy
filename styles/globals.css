@@ -5,6 +5,11 @@
   background-color: lightblue;
 }
 
+#__next a {
+  text-decoration: none;
+  
+}
+
 html {
   min-height: 100vh;
   font-family: 'Ubuntu', sans-serif;
