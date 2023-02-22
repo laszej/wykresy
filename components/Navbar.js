@@ -18,7 +18,7 @@ const Navbar = () => {
             style={{
               fontWeight: "bold",
               color: "#00B8D4",
-              letterSpacing: "0.15rem",
+              letterSpacing: "0.05rem",
               marginTop: "0.5rem",
             }}
           >
@@ -57,8 +57,8 @@ const Navbar = () => {
   >
     Portfolio
   </button>
-  <div className="dropdown-menu bg-dark-custom " aria-labelledby="dropdownMenuButton">
-    <Link href="/vanilla" className="nav-link dark-link">Vanilla JS</Link>
+  <div className="dropdown-menu" style={{backgroundColor: "#212529"}} aria-labelledby="dropdownMenuButton">
+    <Link href="/vanilla" className="nav-link" style={{color: "white", backgroundColor: "#212529"}}>Vanilla JS</Link>
   </div>
 </div>
 
