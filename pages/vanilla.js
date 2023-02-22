@@ -9,14 +9,15 @@ const Vanilla = () => {
 
         <div className={styles.projects}><p><strong>Amazorron</strong><br/><br/>Frontendowy klon Amazona. Za bazę danych służy local storage przeglądarki. Projekt stworzony w &quot;czystej triadzie&quot; (HTML, CSS, JavaScript). Nie planuję rozwijać dalej. Czas na React! Poznajmy się lepiej!</p><br/>Przetestuj<Link href='https://laszej.github.io/amazorron2/' target='blank'><strong> tutaj</strong><br/><br/></Link><img src='/projects/amazorron.png' className={styles.pImages}/></div>
         
-        <div className={styles.projects}><p><strong>Simple Chat App</strong><br/><br/>`Prosty czat oparty na popularnym json-server, który zainstalowałem w serwisie Heroku. Dostępny również poprzez aplikację na system Android.``  </p><br/>
+        <div className={styles.projects}><p><strong>Simple Chat App</strong><br/><br/>`Prosty czat oparty na popularnym json-server, który zainstalowałem w ser
+        wisie Heroku. Dostępny również poprzez aplikację na system Android.``  </p><br/>
             <div className={styles.leftRight}>
                 <div>Przetestuj<Link href='https://laszej.github.io/chat/' target='blank'><strong> tutaj
                  </strong></Link></div>
                  <div>Pobierz na Android<Link href='https://drive.google.com/drive/folders/1z1aDtfu5iPta1-jawEi4ps9mtVjwDNtZ?usp=sharing' target='blank'><strong> tutaj</strong></Link></div></div><img src='/projects/chat.png'className={styles.pImages} /></div>
         
         
-           <div className={styles.projects}><p><strong>NoteTaker</strong><br/><br/>npm run build
+           <div className={styles.projects}><p><strong>NoteTaker</strong><br/><br/>
            Aplikacja webowa, z pomocą której zapiszesz ważne notatki w pamięci przeglądarki urządzenia</p><br/>Przetestuj<Link href='https://laszej.github.io/notetaker/' target='blank'><strong> tutaj</strong><br/><br/></Link><img src='/projects/notetaker.png' className={styles.pImages} /></div>
 
 
