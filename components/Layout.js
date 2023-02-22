@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <main style={{ flexGrow: 1 }}>
         {children}
       </main>
-      <Footer1 style={{ marginTop: "auto" }} />
+      <Footer1 />
     </div>
   );
 };

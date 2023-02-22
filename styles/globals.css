@@ -55,6 +55,12 @@ ul{
   margin-left: 2rem;
 }
 
+.jumboItems{
+margin-left: 0.1rem;
+ margin-top: -0.4rem;
+margin-bottom:1rem;}
+
+
 .galleryPhoto{
   width: 90vmin;
   height:70vmin;

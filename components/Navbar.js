@@ -40,21 +40,32 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto">
 
             <li className="nav-item">
-              <Link href="/" className="nav-link">Home</Link></li>
+              <Link href="/" className="nav-link">Home</Link>
+            </li>
 
             <li className="nav-item">
               <Link href="/coins" className="nav-link">Coins</Link>
             </li>
 
-            <li className="nav-item">
-              <Link href="/portfolio" className="nav-link">Portfolio</Link>
-            </li>
+            <div className="dropdown nav-item bg-dark-custom">
+  <button
+    className="btn dropdown-toggle nav-link"
+    type="button"
+    id="dropdownMenuButton"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Portfolio
+  </button>
+  <div className="dropdown-menu bg-dark-custom " aria-labelledby="dropdownMenuButton">
+    <Link href="/vanilla" className="nav-link dark-link">Vanilla JS</Link>
+  </div>
+</div>
 
             <li className="nav-item">
               <Link href="/about" className="nav-link">About</Link>
             </li>
-            
-            
+
             <div className="nav-item ms-3" id="socials">
               <Link
                 href="https://www.facebook.com/laszej"
@@ -79,11 +90,10 @@ const Navbar = () => {
                 />
               </Link>
             </div>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
+          </ul></div>
+</div>
+</nav>
+);
 };
 
 export default Navbar;
