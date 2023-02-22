@@ -7,8 +7,9 @@ const Footer1 = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-          <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula massa eu turpis malesuada, nec tristique risus tristique.</p>
+          <h3>Krótko o mnie</h3>
+          <p style={{letterSpacing:"0.05rem"}}>Pracuje według paradygmatu Javascript Everywhere.</p>
+          <p style={{letterSpacing:"0.05rem"}}>Piszę kod raz, który następnie działa w przeglądarce i w aplikacjach na: iOS | Android | Windows | macOs | Linux</p>
         </div>
         <div className="col-md-4">
           <h3>Recent Posts</h3>
