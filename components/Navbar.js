@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-dark-custom"
-      style={{ display: "flex", alignItems: "center" }}
+      style={{display: "flex", alignItems: "center"}}
     >
       <div className="container">
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -49,17 +49,18 @@ const Navbar = () => {
 
             <div className="dropdown nav-item bg-dark-custom">
   <button
+ 
     className="btn dropdown-toggle nav-link"
     type="button"
-    id="dropdownMenuButton"
+    id="dropdownMenuLink"
     data-bs-toggle="dropdown"
     aria-expanded="false"
   >
     Portfolio
   </button>
-  <div className="dropdown-menu" style={{backgroundColor: "#212529"}} aria-labelledby="dropdownMenuButton">
-    <Link href="/vanilla" className="nav-link" style={{color: "white", backgroundColor: "#212529"}}>Vanilla JS</Link>
-  </div>
+  <ul className="dropdown-menu" style={{backgroundColor: "#212529"}} aria-labelledby="dropdownMenuButton">
+    <li><Link href="/vanilla" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>Vanilla JS</Link></li>
+  </ul>
 </div>
 
             <li className="nav-item">
