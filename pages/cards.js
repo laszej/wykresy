@@ -13,7 +13,7 @@ const cards = () => {
     <img src="/projects/notetaker.png" className="card-img-bottom align-self-center" alt="Project Image" style={{width: "80%"}}/>
   </div>
 
-  <div class="card bg-dark text-dark" style={{width: "80%",marginTop: "2rem"}}>
+  <div className="card bg-dark text-dark" style={{width: "80%",marginTop: "2rem"}}>
   <img className="card-img" src="/projects/notetaker.png" alt="Card image"/>
   <div className="card-img-overlay">
     <h5 className="card-title">Card title</h5>
