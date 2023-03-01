@@ -89,9 +89,9 @@ function Vanilla() {
         </div>
 
         <div className={`${styles.projectsWrapper} ${isVisible[1] ? styles["is-visible"] : ""}`} ref={refs[1]}>
-        <div className={styles.projects}><p><strong>Simple Chat App</strong><br/><br/>Prosty czat oparty na popularnym json-server, który zainstalowałem w serwisie Heroku. Dostępny również poprzez aplikację na system Android.  </p>
+        <div className={styles.projects}><p><strong>Simple Chat App</strong><br/><br/>Prosty czat oparty na popularnym json-server, który zainstalowałem w serwisie Heroku. Heroku zlikwidowało free plan, więc przerobiłem na podstronę nexta, w którym napisałem prosty backend. Aplikacja na Android nie będzie już działać.   </p>
             <div className={styles.leftRight}>
-                <div>Przetestuj<Link href='https://laszej.github.io/chat/' target='blank'><strong> tutaj
+                <div>Przetestuj<Link href='https://budowa.vercel.app/simplechat' target='blank'><strong> tutaj
                  </strong></Link></div>
                  <div>Pobierz na Android<Link href='https://drive.google.com/drive/folders/1z1aDtfu5iPta1-jawEi4ps9mtVjwDNtZ?usp=sharing' target='blank'><strong> tutaj</strong></Link></div></div><img src='/projects/chat.png'className={styles.pImages} /></div></div>
 
