@@ -28,7 +28,6 @@ function ReactNext() {
 
   const refs = [
     useRef(null),
-    useRef(null)
   ];
 
   const [isVisible, setIsVisible] = useState(Array(refs.length).fill(false));
@@ -76,13 +75,12 @@ function ReactNext() {
               <br />
               <br />
             </Link>
-            <img src={"/projects/countries.png"} className={styles.pImages} />
+            <img src={"/projects/countries.PNG"} className={styles.pImages} />
           </div>
         </div>
 
 
-        <div className={`${styles.projectsWrapper} ${isVisible[1] ? styles["is-visible"] : ""}`} ref={refs[1]}>
-        <div className={styles.projects}><p><strong>Odgadnij nazwę Państwaaaa</strong><br/><br/>Znasz wszystkie? :) Zadbałem o to, by pojawiły się w grze nazwy państw, o których wielu nie słyszało, ale spokojnie - wystarczy cierpliwość w podążaniu za prawidłową nazwą!</p>Przetestuj<Link href='https://laszej.github.io/gra2/' target='blank'> <strong>tutaj</strong><br/><br/></Link><img src='/projects/krypto.PNG' className={styles.pImages} /></div></div>
+      
       
       </div>
 
