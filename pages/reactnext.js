@@ -26,7 +26,7 @@ function ReactNext() {
 
   const refs = [
     useRef(null),
-    
+    useRef(null),
   ];
 
   const [isVisible, setIsVisible] = useState(Array(refs.length).fill(false));
@@ -74,14 +74,9 @@ function ReactNext() {
               <br />
               <br />
             </Link>
-            <img src="/projects/krypto.png" className={styles.pImages} />
+            <img src='/projects/krypto.png' className={styles.pImages} />
           </div>
         </div>
-
-      
-
-
-
       
       </div>
 
