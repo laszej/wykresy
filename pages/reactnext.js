@@ -25,8 +25,8 @@ function ReactNext() {
   const [windowWidth, windowHeight] = useWindowSize();
 
   const refs = [
-    useRef(null),
-    useRef(null),
+    useRef(null)
+    
   ];
 
   const [isVisible, setIsVisible] = useState(Array(refs.length).fill(false));
