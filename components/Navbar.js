@@ -3,7 +3,7 @@ import Image from "next/image";
 import CodeIcon from "../public/code.svg";
 import twitter from "../public/twitter.svg";
 import facebook from "../public/facebook.svg";
-import Head from "next/head";
+
 
 const Navbar = () => {
   return (
@@ -43,10 +43,6 @@ const Navbar = () => {
               <Link href="/" className="nav-link">Home</Link>
             </li>
 
-            <li className="nav-item">
-              <Link href="/coins" className="nav-link">Coins</Link>
-            </li>
-
             <div className="dropdown nav-item bg-dark-custom">
   <button
  
@@ -60,6 +56,7 @@ const Navbar = () => {
   </button>
   <ul className="dropdown-menu" style={{backgroundColor: "#212529"}} aria-labelledby="dropdownMenuButton">
     <li><Link href="/vanilla" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>Vanilla JS</Link></li>
+    <li><Link href="/reactnext" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>React & Next.js</Link></li>
   </ul>
 </div>
 
