@@ -75,7 +75,7 @@ function ReactNext() {
               <br />
               <br />
             </Link>
-            <img src={"/projects/countries.PNG"} className={styles.pImages} />
+            <img src={"/projects/krypto.PNG"} className={styles.pImages} />
           </div>
         </div>
 
