@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import styles from './vanilla.module.css';
+import Crypto from '../public/projects/krypto.png';
+
 
 function useWindowSize() {
   const [size, setSize] = useState([undefined, undefined]);
@@ -74,7 +76,7 @@ function ReactNext() {
               <br />
               <br />
             </Link>
-            <img src='/projects/krypto.png' className={styles.pImages} />
+            <img src={"/projects/krypto.png"} className={styles.pImages} />
           </div>
         </div>
       
