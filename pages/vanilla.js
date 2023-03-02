@@ -73,10 +73,8 @@ function Vanilla() {
               <strong>Amazorron</strong>
               <br />
               <br />
-              Frontendowy klon Amazona. Za bazę danych służy local storage
-              przeglądarki. Projekt stworzony w &quot;czystej triadzie&quot; (HTML,
-              CSS, JavaScript). Nie planuję rozwijać dalej. Czas na React!
-              Poznajmy się lepiej!
+              Frontendowy klon Amazona. Zakupy zapisują się w local storage. Projekt stworzony w &quot;czystej triadzie&quot; (HTML,
+              CSS, JavaScript). Mnóstwo imperatywnego kodu czystego JS. 
             </p>
             Przetestuj
             <Link href="https://laszej.github.io/amazorron2/" target="blank">
