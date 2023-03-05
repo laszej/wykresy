@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import styles from './vanilla.module.css';
 
+
 function useWindowSize() {
   const [size, setSize] = useState([undefined, undefined]);
 
