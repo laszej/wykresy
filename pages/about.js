@@ -1,17 +1,18 @@
 import Image from "next/image"
 import Link from "next/link"
-import { useRouter } from 'next/router';
 
 const Gallery = () => {
 
-  const router = useRouter();
-
-  const handlePortfolioClick = () => {
+    const handlePortfolioClick = () => {
     const portfolioDropdown = document.querySelector('.dropdown-menu');
+    const navbarCollapse = document.querySelector('#navbarNav');
+  
     if (portfolioDropdown.classList.contains('show')) {
       portfolioDropdown.classList.remove('show');
+      navbarCollapse.classList.remove('show');
     } else {
       portfolioDropdown.classList.add('show');
+      navbarCollapse.classList.add('show');
     }
   };
 
