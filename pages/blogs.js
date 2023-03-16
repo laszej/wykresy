@@ -21,6 +21,7 @@ export default function Posts() {
           <li key={blog._id}>
            <h1> {blog.title}</h1>
            <p>{blog.content}</p>
+           <p>c@copy Stanisław Laskowski 2023</p>
            
            </li>
         ))}
