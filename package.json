@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fontsource/ubuntu": "^4.5.11",
@@ -17,16 +19,23 @@
     "bootstrap": "^5.2.3",
     "core-js-pure": "^3.28.0",
     "cors": "^2.8.5",
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "mongodb": "^5.1.0",
+    "net": "^1.0.2",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^9.0.5",
-    "typeface-ubuntu": "^1.1.13"
+    "tls": "^0.0.1"
   },
   "devDependencies": {
     "eslint": "8.14.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "gh-pages": "^5.0.0"
   }
 }

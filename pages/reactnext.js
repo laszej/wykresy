@@ -70,7 +70,7 @@ function ReactNext() {
              Aplikacja, która pobiera obszerne dane dotyczące wiodących kryptowalut i na bieżąco je uaktualnia.
             </p>
             Przetestuj
-            <Link href="https://laszej.github.io/kryptowaluty/" target="blank">
+            <Link href="https://laszej.github.io/krypto/" target="blank">
               <strong> tutaj</strong>
               <br />
               <br />
