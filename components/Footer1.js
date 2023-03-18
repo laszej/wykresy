@@ -12,17 +12,16 @@ const Footer1 = () => {
           <p style={{letterSpacing:"0.05rem"}}>Piszę kod raz, który następnie działa w przeglądarce i w aplikacjach na: iOS | Android | Windows | macOs | Linux</p>
         </div>
         <div className="col-md-4 my-1">
-          <h3>Recent Posts</h3>
+          <h3>Skomentuj</h3>
           <ul className="list-unstyled">
-            <li><Link href="#">Post One</Link></li>
-            <li><Link href="#">Post Two</Link></li>
-            <li><Link href="#">Post Three</Link></li>
+          <p style={{letterSpacing:"0.05rem"}}>Jeśli chcesz przekazać swoje wrażenia dotyczące strony, portfolio lub zadać jakieś pytanie, możesz to zrobić bezpośrednio na stronie</p>
+            <h4><Link href="/comments">komentarze</Link></h4>
           </ul>
         </div>
         <div className="col-md-4 my-1">
           <h3>Kontakt</h3>
           <p>Mail</p>
-          <p><Link href="mailto:stanislawlaskowski87@gmail.com">stanislawlaskowski87@gmail.com</Link></p>
+          <h5><Link href="mailto:stanislawlaskowski87@gmail.com">stanislawlaskowski87@gmail.com</Link></h5>
           <p>Telefon</p>
           <p>504 940 279</p>
           

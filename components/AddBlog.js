@@ -8,11 +8,9 @@ const AddBlog = () => {
   const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (event) => {
-    event.preventDefault();
     setLoading(true);
     setError(null);
     setSuccess(false);
-  
     console.log('Submitting blog post', { title, content });
   
     try {
@@ -41,11 +39,11 @@ const AddBlog = () => {
   };
 
   return (
-    <div>
+    <div style={{display: "flex", flexDirection:"column", marginBottom: "2rem"}}>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="title">Title</label>
-          <input
+          <p htmlFor="title">Autor: </p>
+          <input style={{width: "300px"}}
             type="text"
             id="title"
             value={title}
@@ -54,15 +52,15 @@ const AddBlog = () => {
           />
         </div>
         <div>
-          <label htmlFor="content">Content</label>
-          <textarea
+          <p style={{marginTop: "1rem"}}>treść wiadomości: </p>
+          <textarea style={{width: "300px"}}
             id="content"
             value={content}
             onChange={(event) => setContent(event.target.value)}
             required
           ></textarea>
         </div>
-        <button type="submit" disabled={loading}>
+        <button type="submit" className="btn btn-primary"disabled={loading}>
           {loading ? 'Loading...' : 'Submit'}
         </button>
         {error && <p>{error}</p>}

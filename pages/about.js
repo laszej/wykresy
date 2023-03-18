@@ -49,10 +49,10 @@ const Gallery = () => {
         </div>
       <hr className="my-10" />
 
-        <p className="lead" style={{marginTop:"2rem"}}>&nbsp;&nbsp;&nbsp;Aktualnie skupiam się na front-end, ale widzę duży potencjał (i niezależność przy tworzeniu aplikacji) w technologiach back-endowych. Bardzo ciekawym kierunkiem rozwoju jest też analiza i wizualizacja danych. </p>
+        <p className="lead" style={{marginTop:"2rem"}}>Aktualnie skupiam się na front-end, ale widzę duży potencjał (i niezależność przy tworzeniu aplikacji) w technologiach back-endowych. Bardzo ciekawym kierunkiem rozwoju jest też analiza i wizualizacja danych. </p>
 
         <div style={{display: "flex", flexDirection: "column"}}>
-        <p className="lead" style={{marginTop:"2rem"}}> <i>&nbsp;&quot;Talk is cheap, show me the code&quot;</i>. Zapraszam więc do odwiedzenia mojego</p>
+        <p className="lead" style={{marginTop:"2rem"}}> Zapraszam do odwiedzenia mojego</p>
         <Link href="#" className="btn btn-primary btn-lg"
          style={{marginLeft: "2rem", marginTop: "1rem", maxWidth: "150px"}}
          onClick={handlePortfolioClick}>
