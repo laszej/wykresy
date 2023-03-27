@@ -4,7 +4,16 @@ import Link from "next/link"
 const Gallery = () => {
 
   const handlePortfolioClick = () => {
-    
+    const portfolioDropdown = document.querySelector('.dropdown-menu');
+    const navbarCollapse = document.querySelector('#navbarNav');
+  
+    if (portfolioDropdown.classList.contains('show')) {
+      portfolioDropdown.classList.remove('show');
+      navbarCollapse.classList.remove('show');
+    } else {
+      portfolioDropdown.classList.add('show');
+      navbarCollapse.classList.add('show');
+    }
   };
 
 
@@ -54,7 +63,7 @@ const Gallery = () => {
         <p className="lead" style={{marginTop:"2rem"}}>Wiem, pewnie myślicie, że przydługawo i &quot;pewnie przesadza&quot;. &quot;Przecież on nie piszę o tym co w telewizji. Nie odnosi się do powszechnego dyskursu politycznego. Nie odnosi się do moich problemów&quot; <br/> Tych, którzy to robią jest wielu. Na pewno będę odnosił się do dyskursu polityczno-społeczno-gospodarczego dnia codziennego, ale to robią wszyscy.
          Ja staram się patrzeć <strong>również</strong> we wcale tak nieodległą przyszłość.</p>
 
-        <div style={{display: "flex", flexDirection: "column"}}>
+        <div style={{display: "flex", flexDirection: "column", marginLeft:"2rem"}}>
         <p className="lead" style={{marginTop:"2rem"}}> Zapraszam do odwiedzenia mojego</p>
         <Link href="#" className="btn btn-primary btn-lg"
          style={{marginLeft: "2rem", marginTop: "1rem", maxWidth: "150px"}}
