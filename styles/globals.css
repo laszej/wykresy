@@ -115,7 +115,7 @@ margin-bottom:1rem;}
     flex-direction: column;
   }
 
-  #gridGalleryJumbo{
+  #gridGalleryJumbo, #gridGalleryJumbo1{
     margin: 0 auto;
     margin-bottom: 2rem;
     min-width:90%;
