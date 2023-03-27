@@ -1,19 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
-import CodeIcon from "../public/code.svg";
 import twitter from "../public/twitter.svg";
 import facebook from "../public/facebook.svg";
+
 
 
 const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-dark-custom"
-      style={{display: "flex", alignItems: "center"}}
+      style={{display: "flex", alignItems: "center", minHeight:"5rem"}}
     >
       <div className="container">
         <div style={{ display: "flex", alignItems: "center" }}>
-          <Image src={CodeIcon} alt="Code" height={60} width={60} />
+  
           <h5
             style={{
               fontWeight: "bold",
@@ -22,7 +22,7 @@ const Navbar = () => {
               marginTop: "0.5rem",
             }}
           >
-            Stanisław Laskowski front-end developer
+            Stanisław Laskowski - konserwatysta w Poznaniu
           </h5>
         </div>
         <button

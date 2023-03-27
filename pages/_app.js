@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Head from "next/head";
 import Layout from "../components/Layout";
 
+
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap");
@@ -12,12 +13,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-       
+       <title>Stanisław Laskowski - konserwatysta w Poznaniu</title>
       </Head>
       
       
       <Layout>
+        
         <Component {...pageProps} />
+        
       </Layout>
     </>
   );

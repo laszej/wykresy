@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   try {
     const { db } = await connectToDatabase(); // use the exported function
 
-    const result = await db.collection('blogs').insertOne({
+    const result = await db.collection('political').insertOne({
       title,
       content,
     });

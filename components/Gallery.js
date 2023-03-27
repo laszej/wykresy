@@ -12,21 +12,24 @@ const Gallery1 = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000, // 3 second intervals
-    fade: true
+    fade: true,
+    arrows: false
   };
 
   const photos = [
-    { path: "/0.png" },
-    { path: "/1.jpg" },
-    { path: "/2.jpg" },
-    { path: "/3.png" },
-    { path: "/4.jpg" },
-    { path: "/5.jpg" },
-    { path: "/6.jpg" },
+    { path: "/homePhotos/1.jpg" },
+    { path: "/homePhotos/2.jpg" },
+    { path: "/homePhotos/3.jpg" },
+    { path: "/homePhotos/4.jpg" },
+    { path: "/homePhotos/5.jpg" },
+    { path: "/homePhotos/6.jpg" },
+    { path: "/homePhotos/7.jpg" },
+    { path: "/homePhotos/8.jpg" },
+    { path: "/homePhotos/9.jpg" },
   ];
 
   return (
-    <Slider {...settings} arrows={false}>
+    <Slider {...settings} >
       {photos.map((photo) => (
         <div key={photo.path}>
           <div className="galleryPhoto">

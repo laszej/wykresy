@@ -4,9 +4,9 @@ const PageNotFound = () => {
   return (
     <div>
       {" "}
-      <h1> Page Not Found</h1>{" "}
-      <h3>Check to see if you are in the correct page.</h3>
-      <Link href="/">Click here to go home</Link>
+      <h1> Nie ma takiej strony</h1>{" "}
+      <h3>Sprawdź poprawność wpisanego adresu lub</h3>
+      <Link href="/">Kliknij tutaj, by wrócić na stronę główną</Link>
     </div>
   );
 };

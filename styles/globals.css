@@ -79,7 +79,9 @@ margin-bottom:1rem;}
   display: flex;
 }
 
-#gridGalleryJumbo{
+#gridGalleryJumbo, #gridGalleryJumbo1{
+  min-width:45%;
+  max-width:45%;
  margin-left: 2rem;
  margin-right:3rem;
 }
