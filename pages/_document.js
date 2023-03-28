@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="pl">
         <Head>
-        <title>Stanisław Laskowski - konserwatysta w Poznaniu</title>
+        
         </Head>
         <body>
           <Main />

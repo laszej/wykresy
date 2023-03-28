@@ -112,7 +112,7 @@ const Gallery = () => {
 
     <div style={{display: "flex", marginTop:"2rem"}}>
   
-    <h5 className="jumboItems"><strong>Ideologia ma znaczenie</strong>Zakładając bardzo optymistycznie, że Polsce uda się stworzyć podmiotowość technologiczną w XXI wieku, otwartym pytaniem pozostaje, kto w Kraju będzie rządził. Automatyzacja pracy jest nieunikniona. Nie ma podstaw, by uważać, że nowa &quot;rewolucja przemysłowa&quot; jedne miejsca pracy zlikwiduje, a inne stworzy. Niby jakie? Jeśli władzę w Polsce przejmną ugrupowania skrajnie lewicowe, to wprowadzą dochód podstawowy, ale w zamian za "punkty poprawności politycznej", o których wspominałem. Społeczeństwo obywatelskie przestanie istnieć.  
+    <h5 className="jumboItems"><strong>Ideologia ma znaczenie</strong>Zakładając bardzo optymistycznie, że Polsce uda się stworzyć podmiotowość technologiczną w XXI wieku, otwartym pytaniem pozostaje, kto w Kraju będzie rządził. Automatyzacja pracy jest nieunikniona. Nie ma podstaw, by uważać, że nowa &quot;rewolucja przemysłowa&quot; jedne miejsca pracy zlikwiduje, a inne stworzy. Niby jakie? Jeśli władzę w Polsce przejmną ugrupowania skrajnie lewicowe, to wprowadzą dochód podstawowy, ale w zamian za punkty &quot;poprawności politycznej&quot;, o których wspominałem. Społeczeństwo obywatelskie przestanie istnieć.  
     
     Niesamowicie istotnym jest więc, by społeczeństwo posiadało wolnościowe, podmiotowe, patriotyczne i racjonalne cechy, które trzeba wpajać od kołyski. Po to, by w przyszłości to człowiek pozostał beneficjentem zmian, które już tu są. I nie kroczą. Biegną coraz szybciej.  <br/><br/>
 
