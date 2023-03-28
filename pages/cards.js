@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Comments from '../components/Comments'
 
 const cards = () => {
   return (
@@ -22,6 +23,7 @@ const cards = () => {
   </div>
 </div>
 </div>
+<Comments collection="cards"/>
 </>
   )
 }

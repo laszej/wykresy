@@ -1,16 +1,16 @@
 import { connectToDatabase } from '../../utils/mongodb';
 
 export default async function handler(req, res) {
-  const { title, content } = req.body;
+  const { title, content, collection } = req.body; // retrieve collection from the request body
 
-  if (!title || !content) {
+  if (!title || !content || !collection) { // check if collection is missing
     return res.status(422).json({ message: 'Invalid input' });
   }
 
   try {
     const { db } = await connectToDatabase(); // use the exported function
 
-    const result = await db.collection('political').insertOne({
+    const result = await db.collection(collection.toString()).insertOne({ // use collection value here
       title,
       content,
     });

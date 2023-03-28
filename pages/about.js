@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Comments from "../components/Comments";
 
 const Gallery = () => {
 
@@ -116,17 +117,17 @@ const Gallery = () => {
     
     Niesamowicie istotnym jest więc, by społeczeństwo posiadało wolnościowe, podmiotowe, patriotyczne i racjonalne cechy, które trzeba wpajać od kołyski. Po to, by w przyszłości to człowiek pozostał beneficjentem zmian, które już tu są. I nie kroczą. Biegną coraz szybciej.  <br/><br/>
 
-    Kończąc. Mam świadomość, że moje &quot;wywody&quot; mogą budzić różne emocje jak np. niedowierzanie czy nawet coś bardziej pejoratywnego. Wielu pewnie nawet tego nie przeczyta, &quot;bo nudy&quot; lub &quot;androny&quot;. Jako wolnościowiec odpowiadam: Twoja decyzja, Twoje prawo do oceny. 
+    Kończąc. Mam świadomość, że moje &quot;wywody&quot; mogą budzić różne emocje jak np. niedowierzanie czy nawet coś bardziej pejoratywnego. Wielu pewnie nawet tego nie przeczyta, &quot;bo nudy&quot; lub &quot;androny&quot;. Jako wolnościowiec odpowiadam: Twoja decyzja, Twoje prawo do oceny. Możesz wyrazić ją poniżej:
     </h5>
     
   
 
     <hr className="my-10" />
 
-  
+    
 
     </div>
-   
+    <Comments collection="aboutpage"/>
 
     </div>
 
