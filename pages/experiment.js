@@ -2,7 +2,7 @@ import {useState}  from 'react'
 import { Experiment1 } from '../components/Experiment1'
 import SecondGallery from '../components/SecondGallery'
 
-const experiment = () => {
+const Experiment = () => {
 
     const [title, setTitle] = useState("tytuł")
 
@@ -26,4 +26,4 @@ const experiment = () => {
   )
 }
 
-export default experiment
+export default Experiment
