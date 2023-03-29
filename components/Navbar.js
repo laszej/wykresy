@@ -52,11 +52,11 @@ const Navbar = () => {
     data-bs-toggle="dropdown"
     aria-expanded="false"
   >
-    Portfolio
+    Blog
   </button>
   <ul className="dropdown-menu"  style={{backgroundColor: "#212529"}} aria-labelledby="dropdownMenuButton">
-    <li><Link href="/vanilla" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>Vanilla JS</Link></li>
-    <li><Link href="/reactnext" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>React & Next.js</Link></li>
+    <li><Link href="/blogs/first" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>Nowy pełnomocnik</Link></li>
+   
   </ul>
 </div>
 

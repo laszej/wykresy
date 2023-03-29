@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title> Stanisław Laskowski front-end developer</title>
+        <title> Stanisław Laskowski - konserwatysta w Poznaniu</title>
         
       </Head>
 

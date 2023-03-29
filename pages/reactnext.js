@@ -1,6 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import styles from './vanilla.module.css';
+import SecondGallery from '../components/SecondGallery';
+
+const blog0 = [
+  { src: '/blog1/1.jpg', alt: 'Image 1' },
+  { src: '/blog1/2.jpg', alt: 'Image 2' },
+  
+];
 
 
 
@@ -28,6 +35,7 @@ function ReactNext() {
 
   const refs = [
     useRef(null),
+    useRef(null)
   ];
 
   const [isVisible, setIsVisible] = useState(Array(refs.length).fill(false));
@@ -60,24 +68,45 @@ function ReactNext() {
   return (
     <>
       <div className={styles.projectsContainer}>
+
     <div className={`${styles.projectsWrapper} ${isVisible[0] ? styles["is-visible"] : ""}`}ref={refs[0]}
         >
-          <div className={styles.projects}>
-            <p>
+          <div className={styles.projects} id="post1">
+          <p>24.11.2022 r.</p>
+            <h5 style={{textAlign: "center"}}>
+              <strong>Bartłomiej Wróblewski pełnomocnikiem w Poznaniu</strong>
+              <br />
+              <br />
+              
+            <h5>Aplikacja, która pobiera obszerne dane dotyczące wiodących kryptowalut i na bieżąco je uaktualnia.</h5> 
+            </h5>
+          
+            
+           
+           
+            <SecondGallery images={blog0} style={{marginTop:"8rem"}}/>
+          </div>
+        </div>
+
+        <div className={`${styles.projectsWrapper} ${isVisible[0] ? styles["is-visible"] : ""}`}ref={refs[1]}
+        >
+          <div className={styles.projects} id="post2">
+            <h5 style={{textAlign: "center"}}>
               <strong>Kryptowaluty</strong>
               <br />
               <br />
-             Aplikacja, która pobiera obszerne dane dotyczące wiodących kryptowalut i na bieżąco je uaktualnia.
-            </p>
-            Przetestuj
-            <Link href="https://laszej.github.io/krypto/" target="blank">
-              <strong> tutaj</strong>
-              <br />
-              <br />
-            </Link>
+             
+            <h5>Aplikacja, która pobiera obszerne dane dotyczące wiodących kryptowalut i na bieżąco je uaktualnia.</h5> 
+            </h5>
+          
+            
+           
             <img src={"/projects/krypto.PNG"} className={styles.pImages} />
           </div>
         </div>
+
+
+        
 
 
       

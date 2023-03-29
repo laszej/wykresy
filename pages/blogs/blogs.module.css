@@ -1,0 +1,24 @@
+.projects {
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 10px 20px 20px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  width: 80%;
+  letter-spacing: 0.5px;
+  margin-bottom: 3rem; /* reduce the margin-bottom value */
+  top: 1rem;
+
+
+ 
+}
+
+@media only screen and (max-width: 600px) {
+
+ .projects{
+  width: 95%;
+ }
+}
