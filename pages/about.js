@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Comments from "../components/Comments";
+import Head from "next/head";
 
 const Gallery = () => {
 
