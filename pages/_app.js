@@ -12,13 +12,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Head>
-      <title>Stanisław Laskowski - konserwatysta w Poznaniu</title>
-      <meta name="description" content="Konserwatyzm. Prawo i sprawiedliwość. Poznań." />
-      <meta property="og:title" content="Stanisław Laskowski - konserwatysta w Poznaniu" />
-      <meta property="og:description" content="100-lecie wybuchu Powstania Wielkopolskiego" />
-      <meta property="og:image" content="/blog1/2.jpg" />
-    </Head>
+      
       
       
       <Layout>
