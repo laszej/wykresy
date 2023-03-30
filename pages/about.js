@@ -89,44 +89,65 @@ const Gallery = () => {
    
    
 
-<div className="jumbotron jumbotron-fluid" id="gridGalleryJumbo1">
-  <div className="container text-center">
-      <h1 className="display-4 mt-4">Stąd wnioski</h1>
-  </div>
+    <div className="container" style={{marginTop:"2rem", maxWidth: "40%", marginLeft: "auto", marginRight:"1rem"}}>
+    <h1 style={{textAlign: "center"}}>Obecnie</h1>  
+      <div className="row">
+        <div className="col -md-4 gridGallItem" >
+          <img src="/grid/html.PNG" alt="Image 1" width={300} height={200}style={{width: "100%", height: "100%"}} />
+        </div>
+        <div className="col-md-4 gridGallItem" >
+          <img src="/grid/css.PNG" alt="Image 2" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+        <div className="col-md-4 gridGallItem">
+          <img src="/grid/javascript.PNG" alt="Image 3" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-4 gridGallItem">
+          <img src="/grid/bootstrap.PNG" alt="Image 4" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+        <div className="col-md-4 gridGallItem">
+          <img src="/grid/react.PNG" alt="Image 5" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+        <div className="col-md-4 gridGallItem">
+          <img src="/grid/next.PNG" alt="Image 6" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+        <div className="col-md-6 gridGallItem">
+          <img src="/grid/cordova.PNG" alt="Image 4" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+       
+        <div className="col-md-6 gridGallItem">
+          <img src="/grid/electron.PNG" alt="Image 6" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+      </div>
+      <h1 style={{marginTop: "2rem", textAlign: "center"}}>Mocno zainteresowany</h1>    
 
-<div style={{display: "flex", marginTop:"2rem"}}>
-<Image src="pis.svg"alt="PiS" height={60} width={60} style={{marginRight:"1rem"}}/>
-    <h5 className="jumboItems"> <strong>Prawo i Sprawiedliwość</strong> pozostaje jedyną stabilną partią polityczną w Polsce, która reprezentuje wartości konserwatywne, i która posiada dość unikalną na naszej scenie politycznej zdolność do samooczyszczania się oraz rozwoju i kreowania nowych planów na Polskę i ich konsekwentnego wdrażania. Obietnice są dotrzymywane.   </h5>
-    </div>
-  <hr className="my-10" />
+      <div className="row">
+        <div className="col -md-4 gridGallItem" >
+          <img src="/grid/typescript.PNG" alt="Image 1" width={300} height={200}style={{width: "100%", height: "100%"}} />
+        </div>
+        <div className="col-md-4 gridGallItem" >
+          <img src="/grid/node.PNG" alt="Image 2" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+        <div className="col-md-4 gridGallItem">
+          <img src="/grid/express.PNG" alt="Image 3" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
 
-  <div style={{display: "flex", marginTop:"2rem"}}>
-    <h5 className="jumboItems"> <strong>Zmian społeczno-gospodarczych</strong> wywołanych wykładniczym przyrostem zdolności sztucznej inteligencji <strong>nie da się zatrzymać</strong>. W chwili obecnej, właściciele tych technologii to raczej zwolennicy &quot;lewej strony&quot;<br/><br/>Częściowo może to wynikać z ich przekonań, ale moim zdaniem znacznie ważniejsza jest niechęć do demokracji. Demokracja może pokrzyżować plany korporacji. Tak już często bywało w USA gdzie nowojorscy radni miejscy odmówili Amazonowi współpracy przy budowie centrum firmy gdy przedstawiciel tejże konsekwentnie odmawiał praw związkom zawodowym lub gdy kontrakt na chmurę dla Pentagonu tej samej firmy zablokował demokratycznie wybrany Donald Trump (nie wchodząc już w szczegóły z jakich powodów). Społeczność lokalna również wielokrotnie i na długo przekładała starty rakiet firmy spaceX (ocena środowiskowa). Właściwie wymieniłem dwie firmy, których szefowie (jeden formalnie - były) posiadają majątek większy od budżetu Polski (każdy sam), a demokracja w USA mocno im zaszkodziła w interesach. Również założyciel facebooka odpowiadał przed Kongresem za bardzo poważne niedopatrzenia firmy. Ktoś powie, że to daleko za oceanem. Wszystkie trzy firmy już teraz mają potężne związki z Polską. Nie chodzi zresztą o konkretne firmy. Wielkim korporacjom z demokracją i wolnością człowieka nie po drodze. Korporacje będą się zmieniały, zasada pozostaje ta sama.</h5>
-    </div>
-  <hr className="my-10" />
+        </div>
 
-  <div style={{display: "flex", marginTop:"2rem"}}>
-    <h5 className="jumboItems"><strong>Kapitał ma narodowość</strong> Wspomniałem wyżej o dwóch Panach, których majątek jest większy niż roczny budżet Polski. Na razie jednak takie przypadki są rzadkością, choć tendencja jest oczywista - korporacji o większej projekcji siły niż państwo Polskie będzie coraz więcej. W Polsce nie ma takich zasobów prywatnych, by zbudować korporacje o takiej sile, jak te w USA. Wywołam pewien dysonans poznawczy, ale w Polsce big-tech musi stworzyć i kontrolować Państwo. Dopóki to możliwe. Wynika to z prostego faktu: nikogo innego na to nie stać. Ponad czterdzieści lat komuny, a następnie złodziejska reprywatyzacja zrobiły swoje. Wybór jest prosty: albo Państwo zacznie tworzyć potężne spółki technologiczne albo będziemy uzależnieni od tych z USA lub... Chin. Sytuacja w USA nie prognozuje tam przesadnej stabilności. Zmienia się struktura etniczna. Powstają coraz bardziej radykalne ruchy lewicowe. Kto wie, czy republikanie będą zdobywali w ogóle władzę w przyszłości. Nie mam wątpliwości, iż rząd USA kontroluje big tech, ale kto będzie kontrolował rząd USA, jeśli ten skręci zbyt mocno w lewo? Miejmy świadomość, że inwazja Rosji na Ukrainę, to ostatnia wojna XX wieku. I odciąga naszą uwagę od wieku XXI, w którym niepodległości będzie bronić przewaga technologiczna o zupełnie innej jakości. Ci, którzy zostaną z tyłu, pozostaną tam już &quot;na zawsze&quot;.
-    </h5>
-    </div>
-    <hr className="my-10" />
+        <div className="row">
+        <div className="col -md-4 gridGallItem" >
+          <img src="/grid/mongo.PNG" alt="Image 1" width={300} height={200}style={{width: "100%", height: "100%"}} />
+        </div>
+        <div className="col-md-4 gridGallItem" >
+          <img src="/grid/native.PNG" alt="Image 2" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
+        <div className="col-md-4 gridGallItem">
+          <img src="/grid/data1.PNG" alt="Image 3" width={300} height={200} style={{width: "100%", height: "100%"}}/>
+        </div>
 
-    <div style={{display: "flex", marginTop:"2rem"}}>
-  
-    <h5 className="jumboItems"><strong>Ideologia ma znaczenie</strong>Zakładając bardzo optymistycznie, że Polsce uda się stworzyć podmiotowość technologiczną w XXI wieku, otwartym pytaniem pozostaje, kto w Kraju będzie rządził. Automatyzacja pracy jest nieunikniona. Nie ma podstaw, by uważać, że nowa &quot;rewolucja przemysłowa&quot; jedne miejsca pracy zlikwiduje, a inne stworzy. Niby jakie? Jeśli władzę w Polsce przejmną ugrupowania skrajnie lewicowe, to wprowadzą dochód podstawowy, ale w zamian za punkty &quot;poprawności politycznej&quot;, o których wspominałem. Społeczeństwo obywatelskie przestanie istnieć.  
-    
-    Niesamowicie istotnym jest więc, by społeczeństwo posiadało wolnościowe, podmiotowe, patriotyczne i racjonalne cechy, które trzeba wpajać od kołyski. Po to, by w przyszłości to człowiek pozostał beneficjentem zmian, które już tu są. I nie kroczą. Biegną coraz szybciej.  <br/><br/>
-
-    Kończąc. Mam świadomość, że moje &quot;wywody&quot; mogą budzić różne emocje jak np. niedowierzanie czy nawet coś bardziej pejoratywnego. Wielu pewnie nawet tego nie przeczyta, &quot;bo nudy&quot; lub &quot;androny&quot;. Jako wolnościowiec odpowiadam: Twoja decyzja, Twoje prawo do oceny. Możesz wyrazić ją poniżej:
-    </h5>
-    
-  
-
-    <hr className="my-10" />
-
-    
-
-    </div>
+        
+        </div>
     <Comments collection="aboutpage"/>
 
     </div>

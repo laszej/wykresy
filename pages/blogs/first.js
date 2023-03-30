@@ -2,6 +2,7 @@ import React from 'react'
 import SecondGallery from '../../components/SecondGallery';
 import styles from './blogs.module.css'
 import Comments from '../../components/Comments';
+import Head from 'next/head';
 
 const blog0 = [
   { src: '/blog1/1.jpg', alt: 'Image 1' },
@@ -11,7 +12,8 @@ const blog0 = [
 
 const first = () => {
   return (
-    
+    <>
+    <Head> <meta property="og:image" content="/blog1.2jpg"/></Head>
      <div className={styles.projects} id="post1">
       <p>24.11.2022 r.</p>
       <h5 style={{textAlign: "center"}}><strong>Bartłomiej Wróblewski pełnomocnikiem w Poznaniu</strong></h5>
@@ -34,7 +36,7 @@ const first = () => {
       </div>
       <Comments collection="firstPoliticalBlog"/>
      </div>
-    
+     </>
   
   )
 }
