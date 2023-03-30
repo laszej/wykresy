@@ -20,14 +20,7 @@ const Gallery = () => {
 
 
   return (
-<>
-    <Head>
-      <title>Bartłomiej Wróblewski pełnomocnikiem w Poznaniu</title>
-      <meta name="description" content="Spotkanie inaugurujące przejęcie pełnomocnictwa w okręgu poznańskim przez Pana posła Bartłomieja Wróblewskiego." />
-      <meta property="og:title" content="Bartłomiej Wróblewski pełnomocnikiem w Poznaniu" />
-      <meta property="og:description" content="Spotkanie inaugurujące przejęcie pełnomocnictwa w okręgu poznańskim przez Pana posła Bartłomieja Wróblewskiego." />
-      <meta property="og:image" content="/blog1/2.jpg" />
-    </Head>
+
    
     <div className="gridGalleryContainer">
 
@@ -163,7 +156,7 @@ const Gallery = () => {
 
     
     </div>
-    </>
+   
     )}
 
 
