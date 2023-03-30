@@ -13,7 +13,7 @@ const blog0 = [
 const first = () => {
   return (
     <>
-    <Head> <meta property="og:image" content="/blog1.2jpg"/></Head>
+    <Head> <meta property="og:image" content="/blog1/2.jpg"/></Head>
      <div className={styles.projects} id="post1">
       <p>24.11.2022 r.</p>
       <h5 style={{textAlign: "center"}}><strong>Bartłomiej Wróblewski pełnomocnikiem w Poznaniu</strong></h5>
