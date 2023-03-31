@@ -19,6 +19,8 @@ const first = () => {
       <meta property="og:title" content="Bartłomiej Wróblewski pełnomocnikiem w Poznaniu" />
       <meta property="og:description" content="Spotkanie inaugurujące przejęcie pełnomocnictwa w okręgu poznańskim przez Pana posła Bartłomieja Wróblewskiego." />
       <meta property="og:image" content="/blog1/2.jpg" />
+      <meta name="google-site-verification" content="XIKFI75vXQC_793s-S-cNRbOQy7g7AwlGezBXmYU2y4" />
+   
     </Head>
      <div className={styles.projects} id="post1" style={{padding:"5%"}}>
       <p>24.11.2022 r.</p>
