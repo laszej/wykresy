@@ -28,8 +28,8 @@ const Footer1 = () => {
           <h5><Link href="mailto:stanislawlaskowski87@gmail.com">stanislawlaskowski87@gmail.com</Link></h5>
           <h5 style={{marginBottom: "2rem", marginTop: "1rem"}}>Media społecznościowe:</h5>
           <div style={{minWidth: "100%",display: "flex", marginBottom:"2rem"}}>
-          <h5><Link href="https://twitter.com/StLaskows"><Image src={twitter} alt="Code" height={40} width={40} /></Link></h5>
-          <h5><Link href="https://facebook.com/laszej"><Image src={facebook} alt="Code" height={40} width={40} style={{marginLeft: "2rem"}}/></Link></h5>
+          <h5><Link href="https://twitter.com/StLaskows"target="_blank" ><Image src={twitter} alt="Code" height={40} width={40} /></Link></h5>
+          <h5><Link href="https://facebook.com/laszej" target="_blank"><Image src={facebook} alt="Code" height={40} width={40} style={{marginLeft: "2rem"}}/></Link></h5>
          
           
           </div>
