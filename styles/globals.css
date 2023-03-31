@@ -80,8 +80,8 @@ margin-bottom:1rem;}
 }
 
 #gridGalleryJumbo, #gridGalleryJumbo1{
-  min-width:45%;
-  max-width:45%;
+  min-width:70%;
+  max-width:70%;
  margin-left: 2rem;
  margin-right:3rem;
 }
@@ -90,6 +90,27 @@ margin-bottom:1rem;}
   margin: 0 !important;
   padding: 0 !important;
 }
+
+#aboutPage{
+display: flex;
+flex-direction:row;
+}
+
+#aboutRightSide{
+  max-width: 20%;
+  margin-left: auto;
+  margin-right:1rem;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+#flaga{
+  max-width: 100%;
+}
+
+
 
 
 
@@ -127,6 +148,16 @@ margin-bottom:1rem;}
     
     padding: 10px !important; 
   }
+
+  #aboutPage{
+    display: flex;
+    flex-direction: column;
+    }
+
+    #aboutRightSide{
+      max-width: 95%;
+      margin: 0 auto;
+    }
 
  
   

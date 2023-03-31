@@ -4,7 +4,7 @@ import styles from './blogs.module.css'
 import Comments from '../../components/Comments';
 import Head from 'next/head';
 
-const blog0 = [
+const blog1 = [
   { src: '/blog1/1.jpg', alt: 'Image 1' },
   { src: '/blog1/2.jpg', alt: 'Image 2' },
   
@@ -20,7 +20,7 @@ const first = () => {
       <meta property="og:description" content="Spotkanie inaugurujące przejęcie pełnomocnictwa w okręgu poznańskim przez Pana posła Bartłomieja Wróblewskiego." />
       <meta property="og:image" content="/blog1/2.jpg" />
     </Head>
-     <div className={styles.projects} id="post1">
+     <div className={styles.projects} id="post1" style={{padding:"5%"}}>
       <p>24.11.2022 r.</p>
       <h5 style={{textAlign: "center"}}><strong>Bartłomiej Wróblewski pełnomocnikiem w Poznaniu</strong></h5>
         
@@ -37,9 +37,10 @@ const first = () => {
 
       </h5> 
       <div style={{display: "flex", justifyContent:"center",marginTop:"2rem"}}>
-      <SecondGallery images={blog0} />
+      <SecondGallery images={blog1} />
      
       </div>
+      <hr className="my-10" />
       <Comments collection="firstPoliticalBlog"/>
      </div>
      </>

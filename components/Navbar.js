@@ -54,7 +54,8 @@ const Navbar = () => {
   >
     Blog
   </button>
-  <ul className="dropdown-menu"  style={{backgroundColor: "#212529"}} aria-labelledby="dropdownMenuButton">
+  <ul className="dropdown-menu"  style={{backgroundColor: "#212529",  flexDirection:"column-reverse"}} aria-labelledby="dropdownMenuButton">
+   <li><Link href="/blogs/second" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>Minister Czarnek w Poznaniu</Link></li>
     <li><Link href="/blogs/first" className="dropdown-item" style={{color: "white", backgroundColor: "#212529"}}>Nowy pełnomocnik</Link></li>
    
   </ul>

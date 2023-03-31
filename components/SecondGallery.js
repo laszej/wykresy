@@ -72,7 +72,7 @@ const SecondGallery = ({ images }) => {
           <div style={enlargedImageInnerStyle}>
             <img src={selectedImage.src} alt={selectedImage.alt} style={{ width: '100%', height: 'auto' }} />
             <div style={closeButtonStyle} onClick={handleClose}>
-              <img src='/cancel.svg' width={30} height={30} />
+              <img src='/cancel.svg' width={20} height={20} />
             </div>
           </div>
         </div>
