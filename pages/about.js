@@ -31,7 +31,7 @@ const Gallery = () => {
       </div>
 
     <div style={{display: "flex", marginTop:"2rem"}}>
-    <Image src="pis.svg"alt="PiS" height={60} width={60} style={{marginRight:"1rem"}}/>
+    <Image src="new.svg"alt="PiS" height={60} width={60} style={{marginRight:"1rem"}}/>
         <h5 className="jumboItems"> Członek partii <strong>Prawo i Sprawiedliwość.</strong> Dokładnie od 19 czerwca 2017 r. Partia ta jako jedyna jest poważną i stabilną siłą polityczną w Polsce, w której odnaleźć się może osoba o moim światopoglądzie. </h5>
         </div>
       <hr className="my-10" />
@@ -52,21 +52,20 @@ const Gallery = () => {
         <hr className="my-10" />
 
         <div style={{display: "flex", marginTop:"2rem"}}>
-      
+        <Image src="/check.svg"alt="checked" height={20} width={20}/>
         <h5 className="jumboItems">
-
-        Za największe strategiczne wyzwanie uważam<strong> powrót marksizmu</strong> niekiedy nazywanego neomarksizmem. Połączenie &quot;nowych&quot; inwazyjnych ideologii (które mocno relatywizują człowieczeństwo) wraz z pozbawieniem ludzi &quot;na ich własne życzenie&quot; podmiotowości plus rozwój sztucznej inteligencji (AGI/GAI), która musi doprowadzić do załamania rynku pracy w ciągu kilku, góra kilkunastu lat, stwarza idealne warunki do powrotu myśli komunistycznej. Nawet przy zachowaniu formalnej wolności jednostki, jej faktyczna wolność może stać się niewiele warta, gdy procesy gospodarcze zostaną kompletnie zautomatyzowane. Jeśli prawica zignoruje to zagrożenie, to władzę będą zdobywali neomarksiści, którzy opodatkują zautomatyzowane korporacje i wydadzą ludziom dochód podstawowy (który niekoniecznie musi być taki niski) w zamian za &quot;punkty poprawności politycznej&quot;. Takie zjawiska obserwujemy już dzisiaj np. w Chinach, które błędnie są nazywane państwem autorytarnym. Jest to komunistyczne państwo totalitarne, potężnie wsparte nowoczesnymi technologiami, które kontrolują <span style={{ textDecoration: "line-through" }}>obywateli</span> mieszkańców. W okolicznościach, o których wspominam nawet formalna demokracja faktycznie nie będzie różniła się zbytnio od komunistycznych Chin. Obserwujcie Chiny, a dowiecie się, gdzie sami za chwilę żyć możecie.  <br/><br/>
+        Z wielką uwagą obserwuje <strong>zmiany</strong> jakie zachodzą w świecie oraz ich dynamikę. Nigdy w historii ludzkości w trakcie życia jednostki nie dochodziło do tak ogromnych przeobrażeń technologicznych i społeczno-gospodarczych. Myśl konserwatywna musi za tymi zmianami nadążyć i im przewodzić zamiast się biernie&quot;przyglądać&quot;. Unikanie tematu sprawia, że warunki dyktują ideologie lewicowe.</h5></div>
+         
 
         <hr className="my-10" />
+        <div style={{display: "flex", marginTop:"2rem"}}>
+        <Image src="/check.svg"alt="checked" height={20} width={20}/>
+        <h5 className="jumboItems"> Oczywiście, będę również bardzo mocno skupiał się na tematach dużo bliższych Czytelnikowi. Proszę obserwować blog, który zalinkuje poniżej.
         
-        Oczywiście, będę również bardzo mocno skupiał się na tematach dużo bliższych Czytelnikowi.
-        
-        </h5>
+        </h5></div>
 
-
-
-        </div>
       <hr className="my-10" />
+    
 
      
         
@@ -96,7 +95,7 @@ const Gallery = () => {
     <h1 style={{marginTop:"2rem"}}>Poznaniak</h1>
     <img src='/poznań.svg' id="flaga"/> 
     <h1 style={{marginTop:"2rem"}}>Działacz PiS</h1>
-    <img src='/pis.svg' id="flaga" style={{marginBottom:"2rem"}}/> 
+    <img src='/new.svg' id="flaga" style={{marginBottom:"2rem", width: "90%"}}/> 
     
     
 
