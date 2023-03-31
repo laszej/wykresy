@@ -75,7 +75,7 @@ const Navbar = () => {
                 <Image src={facebook} alt="Code" height={20} width={20} />
               </Link>
               <Link
-                href="https://twitter.com/"
+                href="https://twitter.com/StLaskows"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-link"

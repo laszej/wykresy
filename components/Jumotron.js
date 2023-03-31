@@ -11,7 +11,7 @@ export default function Jumbotron() {
       <div className="jumbotron jumbotron-fluid" id="jumbotron">
         <div className="container">
           <h1 className="display-4">Renesans wartości</h1>
-          <p className="lead">Witam wszystkich serdecznie na mojej stronie. Celem tej strony jest przedstawienie alternatywy wobec inwazyjnych ideologii i przemian społecznych, które są niezgodne z naturą ludzką, a które niestety zaczynają przeważać nad zdrowowym rozsądkiem i wrodzoną ludzką godnością. <br/><br/> Na stronie tej odnajdziecie państwo treści dotyczące: </p>
+          <p className="lead">Witam wszystkich serdecznie na mojej stronie. Celem tej strony jest przedstawienie alternatywy wobec inwazyjnych ideologii i przemian społecznych, które są niezgodne z naturą ludzką, a które niestety zaczynają przeważać nad zdrowym rozsądkiem i wrodzoną ludzką godnością. <br/><br/> Na stronie tej odnajdziecie państwo treści dotyczące: </p>
         <ul style={{marginLeft: "auto"}}>
 
           <li style={{display:"flex"}}>
