@@ -31,11 +31,17 @@ const Second = () => {
 
         Pan minister bardzo rzeczowy, błyskotliwy, kulturalny (od razu zapowiedział, że odpowie na wszystkie pytania i tak też uczynił).    <br/><br/>
 
-        Przemysław Czarnek stanął mocno w obronie autorytetu Nauczycieli, który często bywa podważany (nie tylko przez Uczniów, ale również przez Rodziców): &quot;To nieprawda, że najważniejszy w szkole jest uczeń. Uczeń jest najważniejszy w systemie oświaty, bo dla niego jest on tworzony, ale w szkole najważniejszy jest nauczyciel i jego autorytet &quot;<br/><br/>
-
-        Podsumowując - świetny przykład, że objeżdżanie Kraju przez polityków ma sens. Demonizowany przez TVN polityk pokazał najwyższą kulturę, klasę i szacunek do wyborcy.
-
-      </h5> 
+        Przemysław Czarnek stanął mocno w obronie autorytetu Nauczycieli, który często bywa podważany (nie tylko przez Uczniów, ale również przez Rodziców): <br/><br/></h5> 
+       
+       <div style={{borderLeft:"5px solid red", padding:"2rem"}} >
+       
+            <h4 style={{}}> <img src="/quote-left.svg" width={40} style={{}}/> To nieprawda, że najważniejszy w szkole jest uczeń. Uczeń jest najważniejszy w systemie oświaty, bo dla niego jest on tworzony, ale w szkole najważniejszy jest nauczyciel i jego autorytet <img src="/quote-right.svg" width={40} style={{}}/></h4>
+        </div>
+        <p style={{color:"gray", marginLeft:"2rem"}}>Przemysław Czarnek</p>
+        <br/><br/>
+        <h5> Podsumowując - świetny przykład, że objeżdżanie Kraju przez polityków ma sens. Demonizowany przez TVN polityk pokazał najwyższą kulturę, klasę i szacunek do wyborcy.</h5>
+        
+      
       <div style={{display: "flex", justifyContent:"center",marginTop:"2rem"}}>
       <SecondGallery images={blog2} />
       </div>
