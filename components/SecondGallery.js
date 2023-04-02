@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 const SecondGallery = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [innerWidth, setInnerWidth] = useState(null);
 
   const handleClick = (image) => {
     setSelectedImage(image);
@@ -32,8 +33,8 @@ const SecondGallery = ({ images }) => {
   };
 
   const enlargedImageInnerStyle = {
-    maxWidth: '100vmin',
-    maxHeight: '100vmin',
+    maxWidth: innerWidth < 600 ? '100vmin' : '70%',
+    maxHeight: 'auto',
     margin: 'auto',
     position: 'relative'
   };
@@ -47,15 +48,21 @@ const SecondGallery = ({ images }) => {
   };
 
   useEffect(() => {
+    const handleResize = () => {
+      setInnerWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
         handleClose();
       }
     };
-
     window.addEventListener('keydown', handleKeyDown);
 
     return () => {
+      window.removeEventListener('resize', handleResize);
       window.removeEventListener('keydown', handleKeyDown);
     };
   }, []);
