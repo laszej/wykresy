@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 const SecondGallery = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+ 
+isWindowDefined = typeof winodw !== "undefined"
 
   const handleClick = (image, index) => {
     setSelectedImage(image);
@@ -37,7 +39,7 @@ const SecondGallery = ({ images }) => {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: window.innerWidth < 600? "100vmin" : '70vw',
+    width:  isWindowDefined && window.innerWidth < 600? "100vmin" : '70vw',
     height: 'auto',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     display: 'flex',
@@ -45,7 +47,7 @@ const SecondGallery = ({ images }) => {
     alignItems: 'center',
   };
   
-  const isWindowDefined = typeof window !== "undefined";
+  
 
   const enlargedImageInnerStyle = {
     maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
