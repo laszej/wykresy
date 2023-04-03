@@ -45,8 +45,10 @@ const SecondGallery = ({ images }) => {
     alignItems: 'center',
   };
   
+  const isWindowDefined = typeof window !== "undefined";
+
   const enlargedImageInnerStyle = {
-    maxWidth: window.innerWidth >= 600 ? "70vw" : "100vmin",
+    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
     maxHeight: "auto",
     margin: "auto",
     position: "relative"
@@ -109,7 +111,8 @@ const SecondGallery = ({ images }) => {
       {selectedImage && (
         <div style={enlargedImageStyle}>
           <div style={enlargedImageInnerStyle}>
-            <img src={selectedImage.src} alt={selectedImage.alt} style={{width: window.innerWidth < 600? "100vmin": '70vw', height: 'auto' }} />
+            <img src={selectedImage.src} alt={selectedImage.alt} 
+            style={{width:  isWindowDefined && window.innerWidth< 600? "100vmin": '70vw', height: 'auto' }} />
             <div style={closeButtonStyle} onClick={handleClose}>
               <img src='/cancel.svg' width={20} height={20} />
             </div>
