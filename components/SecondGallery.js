@@ -4,7 +4,6 @@ const SecondGallery = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [enlargedImageStyle, setEnlargedImageStyle] = useState({});
-  
   const [enlargedImageInnerStyle, setEnlargedImageInnerStyle] = useState({});
  
   const isWindowDefined = typeof window !== "undefined";
@@ -17,7 +16,7 @@ useEffect(() => {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width:  isWindowDefined && window.innerWidth < 600? "100vmin" : '70vw',
+    width:  isWindowDefined && window.innerWidth < 600? "100vmin" : '100vw',
     height: 'auto',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     display: 'flex',
@@ -26,13 +25,14 @@ useEffect(() => {
   });
 
   setEnlargedImageInnerStyle({
-    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
-    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
+    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "100vw" : "100vmin",
     maxHeight: "auto",
     margin: "auto",
     position: "relative"
     
   });
+
+  console.log("useEffect ran")
 }, []);
 
   const handleClick = (image, index) => {
@@ -94,13 +94,10 @@ useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
         handleClose();
-        console.log("gallery effect ran")
       } else if (event.key === 'ArrowLeft') {
         handlePrevImage();
-        console.log("gallery effect ran")
       } else if (event.key === 'ArrowRight') {
         handleNextImage();
-        console.log("gallery effect ran")
       }
     };
 
@@ -122,7 +119,7 @@ useEffect(() => {
         <div style={enlargedImageStyle}>
           <div style={enlargedImageInnerStyle}>
             <img src={selectedImage.src} alt={selectedImage.alt} 
-            style={{width:  isWindowDefined && window.innerWidth< 600? "100vmin": '70vw', height: 'auto' }} />
+            style={{width:  isWindowDefined && window.innerWidth< 600? "100vmin": '100vw', height: 'auto' }} />
             <div style={closeButtonStyle} onClick={handleClose}>
               <img src='/cancel.svg' width={20} height={20} />
             </div>
