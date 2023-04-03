@@ -3,8 +3,37 @@ import { useState, useEffect } from 'react';
 const SecondGallery = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [enlargedImageStyle, setEnlargedImageStyle] = useState({});
+  
+  const [enlargedImageInnerStyle, setEnlargedImageInnerStyle] = useState({});
  
-isWindowDefined = typeof winodw !== "undefined"
+  const isWindowDefined = typeof window !== "undefined";
+
+useEffect(() => {
+  const isWindowDefined = typeof window !== "undefined";
+
+  setEnlargedImageStyle({
+    position: 'fixed',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width:  isWindowDefined && window.innerWidth < 600? "100vmin" : '70vw',
+    height: 'auto',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  });
+
+  setEnlargedImageInnerStyle({
+    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
+    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
+    maxHeight: "auto",
+    margin: "auto",
+    position: "relative"
+    
+  });
+}, []);
 
   const handleClick = (image, index) => {
     setSelectedImage(image);
@@ -34,28 +63,7 @@ isWindowDefined = typeof winodw !== "undefined"
     cursor: 'pointer',
   };
 
-  const enlargedImageStyle = {
-    position: 'fixed',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width:  isWindowDefined && window.innerWidth < 600? "100vmin" : '70vw',
-    height: 'auto',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  };
   
-  
-
-  const enlargedImageInnerStyle = {
-    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
-    maxHeight: "auto",
-    margin: "auto",
-    position: "relative"
-  };
-
   const closeButtonStyle = {
     position: 'absolute',
     top: '10px',
