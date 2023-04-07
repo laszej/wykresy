@@ -119,7 +119,8 @@ useEffect(() => {
         <div style={enlargedImageStyle}>
           <div style={enlargedImageInnerStyle}>
             <img src={selectedImage.src} alt={selectedImage.alt} 
-            style={{width:  isWindowDefined && window.innerWidth< 600? "100vmin": 'auto', height: '100vh' }} />
+            style={{width:  isWindowDefined && window.innerWidth< 600? "100vmin": "auto",  
+            height: isWindowDefined && window.innerWidth< 600? "auto" :"100vh" }} />
             <div style={closeButtonStyle} onClick={handleClose}>
               <img src='/cancel.svg' width={20} height={20} />
             </div>
