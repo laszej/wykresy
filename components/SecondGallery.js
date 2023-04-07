@@ -109,7 +109,7 @@ useEffect(() => {
   }, [selectedImageIndex]);
 
   return (
-    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent:"center" }}>
       {images.map((image, index) => (
         <div key={index} onClick={() => handleClick(image, index)}>
           <img src={image.src} alt={image.alt} style={imageStyle} />
@@ -119,7 +119,7 @@ useEffect(() => {
         <div style={enlargedImageStyle}>
           <div style={enlargedImageInnerStyle}>
             <img src={selectedImage.src} alt={selectedImage.alt} 
-            style={{width:  isWindowDefined && window.innerWidth< 600? "100vmin": '70vw', height: 'auto' }} />
+            style={{width:  isWindowDefined && window.innerWidth< 600? "100vmin": 'auto', height: '100vh' }} />
             <div style={closeButtonStyle} onClick={handleClose}>
               <img src='/cancel.svg' width={20} height={20} />
             </div>
