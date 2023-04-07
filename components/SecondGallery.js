@@ -16,7 +16,7 @@ useEffect(() => {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width:  isWindowDefined && window.innerWidth < 600? "100vmin" : '70vw',
+    width:  isWindowDefined && window.innerWidth < 600? "100vmin" : '100vw',
     height: 'auto',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     display: 'flex',
@@ -25,7 +25,7 @@ useEffect(() => {
   });
 
   setEnlargedImageInnerStyle({
-    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "70vw" : "100vmin",
+    maxWidth: isWindowDefined && window.innerWidth >= 600 ? "100vw" : "100vmin",
     maxHeight: "auto",
     margin: "auto",
     position: "relative"
