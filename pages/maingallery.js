@@ -62,7 +62,7 @@ export const mainGallery = () => {
     <SecondGallery images={images} style={{margin: "0 auto"}}/>
     </div>
 
-    <CookieBanner/>
+
     
     </>
   )
