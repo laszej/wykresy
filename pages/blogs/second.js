@@ -16,7 +16,7 @@ const Second = () => {
     <Head>
       <title>Minister Czarnek w Poznaniu</title>
       <meta name="description" content="Minister Nauki i Edukacji Pan Przemysław Czarnek w Poznaniu." />
-      <meta property="og:title" content="Bartłomiej Wróblewski pełnomocnikiem w Poznaniu" />
+      <meta property="og:title" content="Minister Nauki i Edukacji Pan Przemysław Czarnek w Poznaniu" />
       <meta property="og:description" content="Minister Nauki i Edukacji Pan Przemysław Czarnek w Poznaniu." />
       <meta property="og:image" content="/blog2/2.jpg" />
     </Head>
