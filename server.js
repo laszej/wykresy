@@ -12,7 +12,7 @@ const port = process.env.NEXT_PUBLIC_SOCKET_PORT || 3001;
 app.use(cors());
 
 // Proxy requests to /api to the API server running on port 3000
-app.use('/api', createProxyMiddleware({ target: 'http://localhost:3000', changeOrigin: true }));
+app.use('/api/messages', createProxyMiddleware({ target: 'https://konserwatysta.vercel.app', changeOrigin: true }));
 
 const server = app.listen(port, () => {
   console.log(`Server listening on port ${port}`);

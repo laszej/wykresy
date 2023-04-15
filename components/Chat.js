@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 export default function Chat() {
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState("");
-  const socket = io('http://localhost:3001');
+  const socket = io('https://konserwatysta.vercel.app');
  
 
   useEffect(() => {
