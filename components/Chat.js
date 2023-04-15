@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 export default function Chat() {
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState("");
-  const socket = io('https://konserwatysta.vercel.app');
+  const socket = io('http://localhost:3001');
  
 
   useEffect(() => {
@@ -62,7 +62,7 @@ export default function Chat() {
       <div style={{display: "flex", flexDirection:"column-reverse",
        justifyContent:"center",
         textAlign:"center",
-        marginTop:"1rem"}}>
+        }}>
       {messages.map((message) => (
         <p key={message._id}>{message.message}</p>
       ))}
