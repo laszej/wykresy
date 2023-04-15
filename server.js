@@ -7,7 +7,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const { connectToDatabase } = require('./utils/mongodb');
 
 const app = express();
-const port = process.env.NEXT_PUBLIC_SOCKET_PORT || 3001;
+const port = process.env.NEXT_PUBLIC_SOCKET_PORT || 4000;
 
 app.use(cors());
 
