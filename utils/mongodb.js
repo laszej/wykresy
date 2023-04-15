@@ -1,6 +1,9 @@
-import { MongoClient } from 'mongodb';
+require('dotenv').config();
+const MongoClient = require('mongodb').MongoClient;
 
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI="mongodb+srv://vercel-admin-user-64137124c857de545799438e:3h46Aoe6Mf6HvMyg@cluster0.37lx3m0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+
+//const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
   throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
@@ -8,7 +11,7 @@ if (!MONGODB_URI) {
 
 let cachedClient = null;
 
-export async function connectToDatabase() {
+async function connectToDatabase() {
   if (cachedClient) {
     return cachedClient;
   }
@@ -27,3 +30,5 @@ export async function connectToDatabase() {
 
   return cachedClient;
 }
+
+module.exports = { connectToDatabase };

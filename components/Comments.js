@@ -18,7 +18,7 @@ const Comments = ({ collection }) => {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ title, content, collection })
+        body: JSON.stringify({ title, content, collection: collection.toString() })
       });
     
       setAdded((prev) => !prev);
