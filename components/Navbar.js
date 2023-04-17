@@ -67,7 +67,7 @@ const Navbar = () => {
 
             <div className="nav-item ms-3" id="socials">
               <Link
-                href="https://www.facebook.com/laszej"
+                href="https://www.facebook.com/people/Stanis%C5%82aw-Laskowski-konserwatysta-w-Poznaniu/100091543767520/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-link"

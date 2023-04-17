@@ -29,7 +29,7 @@ const Footer1 = () => {
           <h5 style={{marginBottom: "2rem", marginTop: "1rem"}}>Media społecznościowe:</h5>
           <div style={{minWidth: "100%",display: "flex", marginBottom:"2rem"}}>
           <h5><Link href="https://twitter.com/StLaskows"target="_blank" ><Image src={twitter} alt="Code" height={40} width={40} /></Link></h5>
-          <h5><Link href="https://facebook.com/laszej" target="_blank"><Image src={facebook} alt="Code" height={40} width={40} style={{marginLeft: "2rem"}}/></Link></h5>
+          <h5><Link href="https://www.facebook.com/people/Stanis%C5%82aw-Laskowski-konserwatysta-w-Poznaniu/100091543767520/" target="_blank"><Image src={facebook} alt="Code" height={40} width={40} style={{marginLeft: "2rem"}}/></Link></h5>
          
           
           </div>
