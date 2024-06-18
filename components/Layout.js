@@ -1,19 +1,17 @@
-import Navbar from "./Navbar";
-import Footer1 from "./Footer1";
-import Head from "next/head";
-import CookieBanner from "./CookieBanner";
-import { useCookies } from "react-cookie";
+import Wdznav from "./Wdznav";
+
+
 
 const Layout = ({ children }) => {
   return (
     <>
    
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
-      <Navbar/>
+      <Wdznav/>
       <main style={{ flexGrow: 1 }}>
         {children}
       </main>
-      <Footer1 />
+     
     </div>
     </>
   );

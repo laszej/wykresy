@@ -2,8 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
-import Gallery from "../components/Gallery";
-import Jumbotron from "../components/Jumotron";
+import Wdznav from "../components/Wdznav";
+
 
 
 export default function Home() {
@@ -19,12 +19,12 @@ export default function Home() {
       <meta property="og:image" content="/homePhotos/1.jpg" />
     </Head>
 
-   
+    
     <div className={styles.homeMain}>
     <div className={styles.gallery}>
-    <Gallery/>
+    
     </div>
-    <Jumbotron/>
+    
     
     </div>
     </>
