@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Stanisław Laskowski - konserwatysta w Poznaniu</title>
+        <title>wykresy</title>
         <link rel="icon" href="/favicon.png" />
         <meta name="description" content="Wykresy" />
       </Head>
