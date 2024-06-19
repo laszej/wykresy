@@ -1,9 +1,7 @@
-import React from 'react';
-
 const Page2 = () => {
   return (
     <div >
-    <h1 style={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", height: "10rem" }}>Frekwencja podczas wyborów organów samorządowych PSM "Winogrady"</h1>
+    <h1 style={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", height: "10rem" }}>Frekwencja podczas wyborów organów samorządowych PSM Winogrady</h1>
 
 
 
@@ -16,3 +14,4 @@ const Page2 = () => {
 };
 
 export default Page2;
+

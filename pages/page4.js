@@ -18,7 +18,7 @@ const Page4 = () => {
   return (
     
 <div >
-    <h1 style={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", height: "10rem" }}>Frekwencja w wyborach do rady osiedla i rady nadzorczej w PSM "Winogrady" (2010-2023) 
+    <h1 style={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", height: "10rem" }}>Frekwencja w wyborach do rady osiedla i rady nadzorczej w PSM Winogrady (2010-2023) 
  </h1>
     
       
